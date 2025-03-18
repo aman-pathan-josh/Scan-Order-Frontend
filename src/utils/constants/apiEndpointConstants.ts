@@ -1,0 +1,5 @@
+export const MenuItemsEndpoint = 'menu_items'
+export const OrdersEndpoint = 'orders'
+export const ReviewsEndpoint = 'reviews'
+export const SignInEndpoint = 'signin'
+export const SignUpEndpoint = 'signup'
