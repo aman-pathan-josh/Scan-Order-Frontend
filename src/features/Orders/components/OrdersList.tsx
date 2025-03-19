@@ -4,6 +4,7 @@ import OrderStatus from "./OrderStatus";
 import useRestaurantDetails from "@/customHooks/useRestaurantDetails";
 import OrderNotFound from "./OrderNotFound";
 import { Badge } from "../../../components/ui/badge";
+import { useEffect, useState } from "react";
 
 const OrdersList = () => {
   const statusColors = {
@@ -18,8 +19,8 @@ const OrdersList = () => {
     {
       pollingInterval: 5000
     }
-  );
-
+  ); 
+  
   if (isLoading) return <p className="text-center text-gray-600">Loading orders...</p>;
   if (error) return <p className="text-center text-red-600">
     <OrderNotFound />

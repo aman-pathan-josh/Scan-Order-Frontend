@@ -51,8 +51,8 @@ const ReviewsList = ({ menu_item_id, menu_item_data }) => {
                                 width={130}
                                 height={130}
                                 className=" rounded-lg"
-                                src="https://imgmediagumlet.lbb.in/media/2025/01/6790b9b0e59da653ef5df1de_1737537968281.jpg"
-                                // src={item.image_url}
+                                // src="https://imgmediagumlet.lbb.in/media/2025/01/6790b9b0e59da653ef5df1de_1737537968281.jpg"
+                                src={menu_item_data?.image_url}
                                 alt="product image"
                             />
                             <div className="pl-6 pr-6 flex flex-col items-start justify-center">

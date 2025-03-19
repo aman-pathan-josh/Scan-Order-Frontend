@@ -17,7 +17,7 @@ export default function MenuItemCard({item}) {
         <>
             <div className="rounded-lg border border-gray-200 bg-white p-2 shadow-sm md:p-3">
                 <div className="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
-                    <img className="h-[120px] w-[120px] rounded-lg" src="https://imgmediagumlet.lbb.in/media/2025/01/6790b9b0e59da653ef5df1de_1737537968281.jpg" alt="imac image" />
+                    <img className="h-[120px] w-[120px] rounded-lg" src={item.image_url} alt="imac image" />
 
                     <label className="sr-only">Choose quantity:</label>
                     <div className="flex items-center justify-between md:order-3 md:justify-end">
